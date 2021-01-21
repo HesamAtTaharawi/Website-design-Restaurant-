@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="Project.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Web Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body><!--  #99611a  -->
+    <nav id="navbar" dir="rtl">
+            <div class="logo">
+                <img src="images/lable.jpg" alt=".."> 
+            </div>
+            <div class="list-style">
+            <ul> 
+                 <li><a href="#">الرئيسية</a></li>
+                 <li><a href="#">خدمات</a></li>
+                 <li><a href="#">وجبات</a></li>
+                 <li><a href="#">فريق العمل</a></li>
+                 <li><a href="#">اطلب وجبتك</a></li>
+                 <li><a href="#">اتصل بنا</a></li>
+             </ul>
+            </div>
+
+            <div style="display: flex; align-items: center; position: absolute;left: 100px;top: -7px;">
+                <a href="#" style="margin-left: 5px; color: #7F1618"><i class="fa fa-instagram"></i></a>
+                <a href="#" style="margin-left: 5px; color: #7F1618"><i class="fa fa-google"></i></a>
+                <a href="#" style="margin-left: 5px; color: #7F1618"><i class="fa fa-linkedin"></i></a>
+                <a href="#" style="margin-left: 5px; color: #7F1618"><i class="fa fa-facebook"></i></a>
+                <a href="#" style="margin-left: 5px; color: #7F1618"><i class="fa fa-twitter"></i></a>
+        </div>
+    </nav>
+<!-- 
+        <header>
+        <div class="text">
+        </div> 
+
+        <div class="imges">
+            <a href="#"> <img src="images/twitter.png" alt=".." class="imges" > </a>
+            <a href="#"> <img src="images/face.png" alt=".." class="imges"  > </a>
+            <a href="#"> <img src="images/youtube.png" alt=".." class="imges" > </a>
+            <a href="#"> <img src="images/whatsapp.png" alt=".." class="imges" > </a>
+            <a href="#"> <img src="images/insta.jpg" alt=".." class="imges" > </a>
+            <a href="#"> <img src="images/google.jpg" alt=".." class="imges" > </a>
+        </div>
+        
+    </header>   -->
+
+    <div class="firstsection">
+        <div class="lyl">
+            <img class="sec1" src="images/img2.jpg" alt=".." width="100%">
+            <div class="line">
+            <img src="images/lable2.gif" alt=".." class="mm">
+            <h1 class="ll"> لأشهى المأكولات البحرية والشعبية </h1>
+            <a href="#" class="AN">اطلب الان</a>
+        </div>        
+        </div>
+    </div>
+    <br>
+    
+    <div class="sec2">
+        <div class="button">
+            <button class="f1" class="b1" onclick="A()"> وجبة المطعم </button>      
+            <button class="f1" class="b2" onclick="A1()" > وجبة الإفطار </button>
+            <button class="f1" class="b3" onclick="A2()"> وجبة الغذاء </button>       
+        </div>
+        </div>
+        <div class="LLBB">
+        <div class="AAA" id="f1">
+            <img src="images/1.jpg"  width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f2">
+            <img src="images/2.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f3">
+            <img src="images/3.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f4" style="display: none;">
+            <img src="images/3.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f5" style="display: none;">
+            <img src="images/5.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f6" style="display: none;">
+            <img src="images/6.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f7" style="display: none;">
+            <img src="images/7.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f8" style="display: none;">
+            <img src="images/8.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;">متاح</span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>   
+        </div>
+        <div class="AAA" id="f9" style="display: none;">
+            <img src="images/9.jpg" width="100%" height="200px">
+            <span style="float: right ;padding: 10px;">:اسم الوجبة</span>
+            <span style="float: left;padding: 10px;">$السعر70</span>
+            <span style="float: right;padding: 21px;"> متاح </span>
+            <span class="fa fa-star checked "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>    
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>   
+        </div>
+    </div>
+    <div class="AHA">
+        <h1> خدمات </h1>
+        <div class="Big">
+            <div class="t11">
+                <img src="images/new.gif" alt="">
+                <h1>عروض متجددة</h1><br>
+                <p>
+                    هناك من صنف العظماء نظراً لشدة حكمته أو لأهمية<br> ما قام به من إنجازات، ومن أشهر الكلمات والمقولات<br> التي وصلت لنا عبر الزمن وتناقلها أجدادنا على مرّ <br>العصور نظراً لما تحتويه من محفزات وحكم لقارئها، <br>ما ستجده في مقالي هذاا ستجده في مقالي هذاا ستجده في<br> مقالي هذا
+                </p>
+            </div>
+            <div class="t11">
+                <img src="images/gift.gif" alt="">
+                <h1>هدايا</h1><br>
+                <p>
+                    هناك من صنف العظماء نظراً لشدة حكمته أو لأهمية<br> ما قام به من إنجازات، ومن أشهر الكلمات والمقولات<br> التي وصلت لنا عبر الزمن وتناقلها أجدادنا على مرّ <br>العصور نظراً لما تحتويه من محفزات وحكم لقارئها، <br>ما ستجده في مقالي هذاا ستجده في مقالي هذاا ستجده في<br> مقالي هذا
+                </p>
+            </div>
+            <div class="t11">
+                <img src="images/delever.gif" alt="">
+                <h1>خدمة التوصيل</h1><br>
+                <p>
+                    هناك من صنف العظماء نظراً لشدة حكمته أو لأهمية<br> ما قام به من إنجازات، ومن أشهر الكلمات والمقولات<br> التي وصلت لنا عبر الزمن وتناقلها أجدادنا على مرّ <br>العصور نظراً لما تحتويه من محفزات وحكم لقارئها، <br>ما ستجده في مقالي هذاا ستجده في مقالي هذاا ستجده في<br> مقالي هذا
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="foodl">
+        <div class="rrr">
+            <h1> وجبات المطعم </h1> <hr>
+            <div class="AAA">
+                <img src="images/4.jpg" width="100%" height="200px">
+                <span style="float: right ;padding: 10px;">:أسم الوجبة</span>
+                <span style="float: left;padding: 10px;">$السعر70</span>
+                <span style="float: right;padding: 21px;">:أسم الوجبة</span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>    
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>   
+            </div>
+            <div class="AAA">
+                <img src="images/5.jpg" width="100%" height="200px">
+                <span style="float: right ;padding: 10px;">:أسم الوجبة</span>
+                <span style="float: left;padding: 10px;">$السعر70</span>
+                <span style="float: right;padding: 21px;">:أسم الوجبة</span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>    
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>   
+            </div>
+            <div class="AAA">
+                <img src="images/6.jpg" width="100%" height="200px">
+                <span style="float: right ;padding: 10px;">:أسم الوجبة</span>
+                <span style="float: left;padding: 10px;">$السعر70</span>
+                <span style="float: right;padding: 21px;">:أسم الوجبة</span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>    
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>   
+            </div>
+            <div class="AAA">
+                <img src="images/7.jpg" width="100%" height="200px">
+                <span style="float: right ;padding: 10px;">:أسم الوجبة</span>
+                <span style="float: left;padding: 10px;">$السعر70</span>
+                <span style="float: right;padding: 21px;">:أسم الوجبة</span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>    
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>   
+            </div>
+            <div class="AAA">
+                <img src="images/8.jpg" width="100%" height="200px">
+                <span style="float: right ;padding: 10px;">:أسم الوجبة</span>
+                <span style="float: left;padding: 10px;">$السعر70</span>
+                <span style="float: right;padding: 21px;">:أسم الوجبة</span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>    
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>   
+            </div>
+            <div class="AAA">
+                <img src="images/9.jpg" width="100%" height="200px">
+                <span style="float: right ;padding: 10px;">:أسم الوجبة</span>
+                <span style="float: left;padding: 10px;">$السعر70</span>
+                <span style="float: right;padding: 21px;">:أسم الوجبة</span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>    
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>   
+            </div>
+        </div>
+        <br>
+    </div>
+    <div style="width: 80PX; height: 30px; text-align: center; background-color:black; color: white; margin-top: -30px; margin-left: 20px;">
+        الخريطة
+    </div>
+
+   <div class="t14">
+       <img src="images/map.jpg" style="width: 100%; height:250px;">
+     </div> 
+     <div style="width: 80PX; height: 30px; text-align: center; background-color: brown;color:white; margin-top: 0px; float: right; margin-right: 20px;">
+      أتصل بنا
+  </div>
+
+  <div class="foot">
+                      
+    <div class="data">
+
+<div class="end">
+    <h1 class="h1end">
+        أرسل رسالة الآن
+     </h1>
+     <form action="javascript:f4()">
+     <input class="prin" id="d1"type="text" placeholder="الاسم"  autocomplete="on" style="text-align: right;"><span id="h1" style="display: none;">الرجاء أدخال الأسم</span>
+     <input class="prin" id="d2" type="text" placeholder="البريد الالكتروني"  autocomplete="on" style="text-align: right;"><span id="h2"style="display: none;">الرجاء أدخال البريد</span>
+     <textarea cols="10" id="d3" placeholder="الرسالة" ></textarea> <span id="h3"style="display: none;">الرجاء أدخال الرسالة</span>
+     <input type="submit" class="botnare" value="أرسل الآن">
+    </form>
+</div>
+
+<div class="end1">
+    <h1 class="h1end1">
+       روابط سريعة
+    </h1>
+    <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+  
+    <a  href="#y1"><span class="aends"><strong>الرئيسية</strong></span> </a>
+      
+
+    <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+    <a  href="#y2"><span class="aends"><strong>خدمات</strong></span> </a>
+
+    <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+    <a  href="#y3"><span class="aends"><strong>وجبات</strong></span> </a>
+
+    <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+    <a  href="#"><span class="aends"><strong>فريق العمل</strong></span> </a>
+
+    <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+    <a  href="#"><span class="aends"><strong>اطلب وجبتك</strong></span> </a>
+
+    <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+    <a  href="#"><span class="aends"><strong> اتصل بنا</strong></span></a>           
+   
+</div>
+
+<div class="end2">
+    <h1 class="hhhhhh">
+        بيانات التواصل
+    </h1>
+    <img class="imgend" src="images/images/y3.png">
+    <span class="endsgm"><strong>alhzqyly@gmail.com</strong></span>
+    <img class="imgend" src="images/images/y.png">
+    <span class="endph"><strong>+972592702712</strong></span>
+    <img class="imgend" src="images/images/y2.png">
+    <span class="endtl"><strong>08 2555735</strong></span>
+    <img class="imgend" src="images/images/y4.jpg">
+    <span class="endad"><strong>www.Ali.com</strong></span>
+<form action="javascript:f3()">
+    <h4 style="color: #821517;">
+        اشترك معنا بالقائمة البريدية
+    </h4>
+    <input  type="text" id="r" placeholder="البريد الالكتروني"  autocomplete="on" style="text-align:right;">
+    <span id="ff" style=" display: none;" >الرجاء إدخال البريد</span>
+
+    <input type="submit" class="botnare" value="اشترك الآن"><br>
+</form>
+</div>
+
+    </div>
+</div>
+
+    <footer>
+        <div class="mm">
+        </div>
+    </footer>
+
+
+    
+<script src="Project.js"></script>
+</body>
+</html> 
